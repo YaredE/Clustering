@@ -16,3 +16,34 @@ Number of Clusters: Just like in traditional clustering, you need to specify the
 Fuzzy clustering is particularly useful when dealing with data that exhibits overlap between clusters, when the assignment of data points to clusters isn't clear-cut, or when a data point can belong to multiple categories simultaneously (e.g., customer segments that have some overlap).
 
 Popular fuzzy clustering algorithms include Fuzzy C-Means (FCM) and Gustafson-Kessel (GK) clustering. Keep in mind that while fuzzy clustering offers flexibility, it can also introduce additional complexity in terms of parameter tuning and result interpretation.
+
+#Data classification
+
+Data classification refers to the process of categorizing data based on its sensitivity and importance. Two common categories of sensitive data are Personally Identifiable Information (PII) and Protected Health Information (PHI):
+
+Personally Identifiable Information (PII):
+PII refers to any data that can be used to identify an individual uniquely. It includes information that, when linked or combined with other data, can identify a specific person. Examples of PII include:
+
+Full name
+Social Security number (SSN)
+Date of birth
+Address
+Phone number
+Email address
+Financial account numbers
+PII is often subject to privacy regulations and laws to protect individuals' personal information.
+
+Protected Health Information (PHI):
+PHI refers to any information related to an individual's health status, healthcare services, or payment for healthcare services. It is subject to regulations like the Health Insurance Portability and Accountability Act (HIPAA) in the United States. Examples of PHI include:
+
+Medical records
+Treatment information
+Lab results
+Health insurance information
+Doctor's notes and diagnoses
+Prescription information
+PHI requires special care to ensure patient privacy and security.
+
+Data classification is crucial to implement appropriate security measures, access controls, and data handling procedures based on the sensitivity of the information. Proper classification helps organizations manage and protect sensitive data effectively, preventing unauthorized access, data breaches, and potential legal consequences.
+
+These directory have some implementation to show case how to classify data and how to cluster data using techniques described above.
