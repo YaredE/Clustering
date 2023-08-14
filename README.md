@@ -17,7 +17,7 @@ Fuzzy clustering is particularly useful when dealing with data that exhibits ove
 
 Popular fuzzy clustering algorithms include Fuzzy C-Means (FCM) and Gustafson-Kessel (GK) clustering. Keep in mind that while fuzzy clustering offers flexibility, it can also introduce additional complexity in terms of parameter tuning and result interpretation.
 
-#Data classification
+# Data classification
 
 Data classification refers to the process of categorizing data based on its sensitivity and importance. Two common categories of sensitive data are Personally Identifiable Information (PII) and Protected Health Information (PHI):
 
